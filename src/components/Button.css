@@ -1,0 +1,27 @@
+.button-wrapper{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    background-color: #5a5a5a;
+    color: black;
+    font-weight: 500px;
+    flex: 1;
+    cursor: pointer;
+    border-radius: 20px;
+    background: #e0e0e0;
+    margin: 5px;
+    box-shadow:  2px 4px 10px #bebebe,
+             -2px -4px 8px #ffffff;
+             
+}
+
+.button-wrapper:hover{
+    cursor: pointer;
+    border: 5px solid rgba(198, 206, 237, .8);
+    /* color:rgba(198, 206, 237, .8);  */
+    color: rgba(0, 0, 0, 0.253);
+    background-color: rgba(198, 206, 237, .8);
+    transition: 1.2s;
+}
